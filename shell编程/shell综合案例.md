@@ -27,7 +27,7 @@ echo "备份文件地址$BACKUP/$DATETIME.tar.gz"
 HOST=localhost
 USER=root
 PWD=root
-DATABASE=test
+DATABASE=atguiguDB
 
 #检查备份路径是否存在，如果不存在创建之
 
