@@ -94,3 +94,20 @@ wang wu
 
 > sed -e '2d' -e 's/wo/ta/g' sed.txt
 
+* awk 
+
+> awk是一个强大的文本处理工具，把文件逐行的读入，以空格为默认分隔符将每行进行切片，切开的部分再分别进行处理
+
+> 基本用法：awk [选项参数] 'pattern1{action1} pattern2{action2}...' filename
+
+
+pattern表示要查找处理的内容，即匹配模式
+
+action表示对匹配的内容所作的处理
+
+常用的选项参数：
+选项|功能
+---|---
+-F|指定分隔符
+-v|赋值一个用户定义变量
+
